@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - "*-rt_*-rev*"
+  workflow_dispatch:
 
 jobs:
   split-tag:
